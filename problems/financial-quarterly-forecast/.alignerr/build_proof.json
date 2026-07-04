@@ -1,0 +1,210 @@
+{
+  "alignerr_cli_version": "0.1.0",
+  "base_image_ref": "lbx-tasks-base-gpu:runtime-ml-core-py313-local",
+  "built_at": "2026-07-04T05:11:11.727879+00:00",
+  "duration_seconds": 315.1728707489965,
+  "ground_truth_result": {
+    "details_path": "/home/phiri/projects/lbx-rl-tasks-iso-04f609cb-gh-task-631ni8063d/.harness-runs/financial-quarterly-forecast-problem-dir-1783141538/verifier/reward-details.json",
+    "graded_at": "2026-07-04T05:15:35.827182+00:00",
+    "metadata": {
+      "aggregate_progress": 0.8377057914985573,
+      "anchors": {
+        "label": {
+          "floor": 0.9231,
+          "perfect": 1.0,
+          "reference": 0.9939
+        },
+        "t1": {
+          "floor": 0.2661,
+          "perfect": 0.0,
+          "reference": 0.033
+        },
+        "t2": {
+          "floor": 0.777,
+          "perfect": 0.0,
+          "reference": 0.2107
+        }
+      },
+      "exponential_constants": {
+        "a": 0.015500047792728323,
+        "b": 4.182293320761412
+      },
+      "headline_score": 0.49960684805078565,
+      "pre_grade_cleanup": {
+        "killed_processes": 0,
+        "removed_nonregular": 0,
+        "removed_symlinks": 0
+      },
+      "raw_metrics": {
+        "label_f1": 0.9938650306748467,
+        "t1_sre": 0.03303368831372549,
+        "t2_sre": 0.2107037585102434
+      },
+      "reference_aggregate_progress": 0.8378882158863408,
+      "reported_final_score": 0.49960684805078565,
+      "return_shape": "rubric_grade",
+      "rubric_breakdown": [
+        {
+          "actual": null,
+          "criterion": "t1_progress",
+          "criterion_id": "t1_progress",
+          "description": "t1_progress",
+          "expected": null,
+          "grading_type": "unknown",
+          "id": "t1_progress",
+          "label": "t1_progress",
+          "passed": true,
+          "reasoning": "",
+          "score": 0.8758598710495096,
+          "weight": 0.35
+        },
+        {
+          "actual": null,
+          "criterion": "t2_progress",
+          "criterion_id": "t2_progress",
+          "description": "t2_progress",
+          "expected": null,
+          "grading_type": "unknown",
+          "id": "t2_progress",
+          "label": "t2_progress",
+          "passed": true,
+          "reasoning": "",
+          "score": 0.7288239916213084,
+          "weight": 0.35
+        },
+        {
+          "actual": null,
+          "criterion": "label_progress",
+          "criterion_id": "label_progress",
+          "description": "label_progress",
+          "expected": null,
+          "grading_type": "unknown",
+          "id": "label_progress",
+          "label": "label_progress",
+          "passed": true,
+          "reasoning": "",
+          "score": 0.9202214652125703,
+          "weight": 0.3
+        }
+      ],
+      "rubric_weights": {
+        "label_progress": 0.3,
+        "t1_progress": 0.35,
+        "t2_progress": 0.35
+      },
+      "scoring_mode": "weighted",
+      "serialized_grade": {
+        "penalties": null,
+        "score": 0.49960684805078565,
+        "scoring_mode": "weighted",
+        "structured_subscores": [
+          {
+            "criterion_id": "t1_progress",
+            "description": "t1_progress",
+            "grading_criteria": "t1_progress",
+            "id": "t1_progress",
+            "label": "t1_progress",
+            "max_score": 1.0,
+            "name": "t1_progress",
+            "reasoning": "",
+            "score": 0.8758598710495096,
+            "weight": 0.35
+          },
+          {
+            "criterion_id": "t2_progress",
+            "description": "t2_progress",
+            "grading_criteria": "t2_progress",
+            "id": "t2_progress",
+            "label": "t2_progress",
+            "max_score": 1.0,
+            "name": "t2_progress",
+            "reasoning": "",
+            "score": 0.7288239916213084,
+            "weight": 0.35
+          },
+          {
+            "criterion_id": "label_progress",
+            "description": "label_progress",
+            "grading_criteria": "label_progress",
+            "id": "label_progress",
+            "label": "label_progress",
+            "max_score": 1.0,
+            "name": "label_progress",
+            "reasoning": "",
+            "score": 0.9202214652125703,
+            "weight": 0.3
+          }
+        ],
+        "subscores": {
+          "label_progress": 0.9202214652125703,
+          "t1_progress": 0.8758598710495096,
+          "t2_progress": 0.7288239916213084
+        },
+        "weights": {
+          "label_progress": 0.3,
+          "t1_progress": 0.35,
+          "t2_progress": 0.35
+        }
+      },
+      "source": "ML_Envs/examples/dataset-example-task_taiga",
+      "weighted_subscore_total": 0.8377057914985573,
+      "weighted_total": 0.8377057914985573
+    },
+    "reward_path": "/home/phiri/projects/lbx-rl-tasks-iso-04f609cb-gh-task-631ni8063d/.harness-runs/financial-quarterly-forecast-problem-dir-1783141538/verifier/reward.json",
+    "run_dir": "/home/phiri/projects/lbx-rl-tasks-iso-04f609cb-gh-task-631ni8063d/.harness-runs/financial-quarterly-forecast-problem-dir-1783141538",
+    "runtime": "solution",
+    "score": 0.49960684805078565,
+    "structured_subscores": [
+      {
+        "criterion_id": "t1_progress",
+        "description": "t1_progress",
+        "grading_criteria": "t1_progress",
+        "id": "t1_progress",
+        "label": "t1_progress",
+        "max_score": 1.0,
+        "name": "t1_progress",
+        "reasoning": "",
+        "score": 0.8758598710495096,
+        "weight": 0.35
+      },
+      {
+        "criterion_id": "t2_progress",
+        "description": "t2_progress",
+        "grading_criteria": "t2_progress",
+        "id": "t2_progress",
+        "label": "t2_progress",
+        "max_score": 1.0,
+        "name": "t2_progress",
+        "reasoning": "",
+        "score": 0.7288239916213084,
+        "weight": 0.35
+      },
+      {
+        "criterion_id": "label_progress",
+        "description": "label_progress",
+        "grading_criteria": "label_progress",
+        "id": "label_progress",
+        "label": "label_progress",
+        "max_score": 1.0,
+        "name": "label_progress",
+        "reasoning": "",
+        "score": 0.9202214652125703,
+        "weight": 0.3
+      }
+    ],
+    "subscores": {
+      "label_progress": 0.9202214652125703,
+      "t1_progress": 0.8758598710495096,
+      "t2_progress": 0.7288239916213084
+    },
+    "weights": {
+      "label_progress": 0.3,
+      "t1_progress": 0.35,
+      "t2_progress": 0.35
+    }
+  },
+  "image_digest": "sha256:df4c8915182d1013407e18109dc26d90969e4e5c711bfdc4963bfe0c3d8f59a0",
+  "platform": "linux/amd64",
+  "schema_version": "1.0",
+  "task_dir_sha256": "ed8ca985b4ed5179d89414f30915ee0a8a627d26e4ae9a489802e6c1f623448d"
+}
